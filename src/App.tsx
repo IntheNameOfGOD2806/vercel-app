@@ -62,6 +62,7 @@ const initValues: ICourse[] =[
 ]
 
 function App() {
+  /* eslint-disable */
   const [courses, setCourses] = useState<ICourse[]>(initValues);
 
   return (
